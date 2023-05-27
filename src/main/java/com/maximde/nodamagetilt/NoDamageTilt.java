@@ -1,7 +1,6 @@
 /*
  * By MaximDe
  */
-
 package com.maximde.nodamagetilt;
 
 import com.comphenix.protocol.ProtocolLibrary;

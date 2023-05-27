@@ -1,7 +1,6 @@
 /*
  * By MaximDe
  */
-
 package com.maximde.nodamagetilt;
 
 import com.comphenix.protocol.PacketType;
@@ -10,7 +9,6 @@ import com.comphenix.protocol.events.PacketAdapter;
 import com.comphenix.protocol.events.PacketContainer;
 import com.comphenix.protocol.events.PacketEvent;
 import net.minecraft.network.protocol.game.ClientboundHurtAnimationPacket;
-
 
 public class PacketListener extends PacketAdapter {
 
