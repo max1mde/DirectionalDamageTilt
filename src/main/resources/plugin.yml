@@ -1,0 +1,7 @@
+main: com.maximde.nodamagetilt.NoDamageTilt
+name: NoDamageTilt
+version: 1.0.0
+api-version: 1.19
+description: Removed the directional damage tilt
+author: MaximDe
+depend: [ProtocolLib]
