@@ -22,6 +22,7 @@ public class PacketListener extends PacketAdapter {
     @Override
     public void onPacketSending(PacketEvent event) {
         if (event.getPacket().getType() == PacketType.Play.Server.HURT_ANIMATION) {
+            if (!event.getPlayer().hasPermission("directionaldamagetilt.enable")) return;
             float modifiedYaw = -180.0f;
             ClientboundHurtAnimationPacket modifiedPacket = new ClientboundHurtAnimationPacket(0, modifiedYaw);
             event.setPacket(PacketContainer.fromPacket(modifiedPacket));
