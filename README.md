@@ -1,4 +1,4 @@
-# DirectionalDamageTilt
+# NO DirectionalDamageTilt Animation
 Removed the directional damage tilt on 1.19.4 servers
 
 Depends:
